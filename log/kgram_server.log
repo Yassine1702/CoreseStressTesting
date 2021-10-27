@@ -1,0 +1,645 @@
+2021-10-26 10:37:50 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:37:50 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:37:50 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:37:50 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:37:50 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:37:50 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:37:50 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:37:50 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:37:50 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:37:50 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:37:50 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:37:50 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:37:50 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:37:50 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:37:50 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:37:50 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:37:50 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:37:50 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:37:50 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:37:50 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:37:50 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:37:50 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:37:50 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:37:50 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:37:50 CEST 2021
+2021-10-26 10:39:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:39:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:39:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:39:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:39:40 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:39:40 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:39:40 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:39:40 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:39:40 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:39:40 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:39:40 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:39:40 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:39:40 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:39:40 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:39:40 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:39:40 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:39:40 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:39:40 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:39:40 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:39:40 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:39:40 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:39:40 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:39:40 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:39:40 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:39:40 CEST 2021
+2021-10-26 10:41:21 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:41:21 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:41:21 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:41:21 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:41:21 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:41:21 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:41:21 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:41:21 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:41:21 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:41:21 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:41:21 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:41:21 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:41:21 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:41:21 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:41:21 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:41:21 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:41:21 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:41:21 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:41:21 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:41:21 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:41:21 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:41:21 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:41:21 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:41:21 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:41:21 CEST 2021
+2021-10-26 10:41:22 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:41:22 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:41:22 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:41:22 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:41:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:41:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:41:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:41:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:41:52 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:41:52 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:41:53 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:41:53 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:41:53 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:41:53 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:41:53 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:41:53 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:41:53 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:41:53 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:41:53 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:41:53 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:41:53 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:41:53 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:41:53 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:41:53 CEST 2021
+2021-10-26 10:41:53 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:41:53 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:41:53 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:41:53 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:44:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:44:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:44:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:44:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:44:29 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:44:29 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:44:29 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:44:29 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:44:29 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:44:29 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:44:29 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:44:29 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:44:29 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:44:29 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:44:29 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:44:29 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:44:29 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:44:29 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:44:29 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:44:29 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:44:29 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:44:29 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:44:29 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:44:29 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:44:29 CEST 2021
+2021-10-26 10:44:30 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:44:30 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:44:30 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:44:30 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:45:00 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:45:00 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:45:00 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:45:00 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:45:00 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:45:00 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:45:00 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:45:00 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:00 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:00 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:45:00 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:45:00 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:45:00 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:45:00 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:45:00 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:45:00 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:45:00 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:45:00 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:45:00 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:45:00 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:45:00 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:45:00 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:45:00 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:45:00 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:45:00 CEST 2021
+2021-10-26 10:45:01 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:45:01 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:45:01 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:45:01 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:45:18 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:45:18 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:45:18 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:45:18 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:45:18 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:45:18 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:45:19 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:19 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:19 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:45:19 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:45:19 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:45:19 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:45:19 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:45:19 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:45:19 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:45:19 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:45:19 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:45:19 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:45:19 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:45:19 CEST 2021
+2021-10-26 10:45:19 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:45:19 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:45:19 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:45:19 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:45:54 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:45:54 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:45:54 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:45:54 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:45:54 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:45:54 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:45:54 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:45:54 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:54 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:45:54 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:45:54 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:45:54 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:45:54 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:45:54 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:45:54 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:45:54 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:45:54 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:45:54 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:45:54 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:45:54 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:45:54 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:45:54 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:45:54 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:45:54 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:45:54 CEST 2021
+2021-10-26 10:45:55 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:45:55 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:45:55 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:45:55 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:49:06 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:49:06 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:49:06 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:49:06 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:49:06 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:49:06 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:49:06 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:49:06 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:49:06 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:49:06 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:49:06 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:49:06 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:49:06 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:49:06 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:49:06 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:49:06 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:49:06 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:49:06 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:49:06 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:49:06 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:49:06 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:49:06 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:49:06 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:49:06 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:49:06 CEST 2021
+2021-10-26 10:49:07 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:49:07 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:49:07 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:49:07 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:50:15 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:50:15 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:50:15 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:50:15 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:50:15 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:50:15 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:50:15 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:50:15 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:50:15 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:50:15 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:50:15 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:50:15 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:50:15 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:50:15 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:50:15 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:50:15 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:50:15 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:50:15 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:50:15 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:50:15 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:50:15 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:50:15 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:50:15 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:50:15 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:50:15 CEST 2021
+2021-10-26 10:50:16 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:50:16 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:50:16 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:50:16 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:51:05 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:51:05 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:51:05 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:51:05 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:51:05 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:51:05 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:51:05 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:51:05 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:51:05 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:51:05 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:51:05 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:51:05 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:51:05 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:51:05 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:51:05 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:51:05 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:51:05 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:51:05 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:51:05 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:51:05 CEST 2021
+2021-10-26 10:51:05 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:51:05 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:51:05 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:51:05 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:51:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:51:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:51:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:51:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:51:52 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:51:52 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:51:52 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:51:52 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:51:52 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:51:52 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:51:52 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:51:52 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:51:52 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:51:52 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:51:52 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:51:52 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:51:52 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:51:52 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:51:52 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:51:52 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:51:52 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:51:52 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:51:52 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:51:52 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:51:52 CEST 2021
+2021-10-26 10:51:53 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 10:51:53 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 10:51:53 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 10:51:53 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 10:54:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 10:54:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 10:54:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 10:54:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 10:54:12 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 10:54:12 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 10:54:12 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 10:54:12 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:54:12 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 10:54:12 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 10:54:12 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 10:54:12 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 10:54:12 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 10:54:12 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 10:54:12 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 10:54:12 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 10:54:12 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 10:54:12 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 10:54:12 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 10:54:12 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 10:54:12 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 10:54:12 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 10:54:12 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 10:54:12 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 10:54:12 CEST 2021
+2021-10-26 11:30:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:30:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:30:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:30:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:30:20 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:30:20 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:30:20 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:30:20 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:30:20 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:30:20 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:30:20 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:30:20 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:30:20 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:30:20 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:30:20 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:30:20 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:30:20 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:30:20 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:30:20 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:30:20 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:30:20 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:30:20 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:30:20 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:30:20 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:30:20 CEST 2021
+2021-10-26 11:30:21 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 11:30:21 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 11:30:21 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 11:30:21 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 11:30:49 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:30:49 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:30:49 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:30:49 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:30:49 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:30:49 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:30:49 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:30:49 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:30:49 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:30:49 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:30:49 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:30:49 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:30:49 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:30:49 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:30:49 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:30:49 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:30:49 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:30:49 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:30:49 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:30:49 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:30:49 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:30:49 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:30:49 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:30:49 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:30:49 CEST 2021
+2021-10-26 11:30:50 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 11:30:50 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 11:30:50 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 11:30:50 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 11:35:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:35:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:35:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:35:29 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:35:29 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:35:29 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:35:30 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:35:30 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:35:30 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:35:30 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:35:30 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:35:30 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:35:30 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:35:30 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:35:30 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:35:30 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:35:30 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:35:30 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:35:30 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:35:30 CEST 2021
+2021-10-26 11:35:30 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 11:35:30 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 11:35:30 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 11:35:30 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 11:37:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:37:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:37:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:37:20 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:37:20 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:37:20 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:37:20 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:37:20 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:37:20 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:37:20 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:37:20 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:37:20 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:37:20 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:37:20 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:37:20 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:37:20 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:37:20 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:37:20 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:37:20 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:37:20 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:37:20 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:37:20 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:37:20 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:37:20 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:37:20 CEST 2021
+2021-10-26 11:37:21 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 11:37:21 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 11:37:21 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 11:37:21 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 11:38:53 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:38:53 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:38:53 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:38:53 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:38:53 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:38:53 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:38:54 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:38:54 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:38:54 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:38:54 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:38:54 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:38:54 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:38:54 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:38:54 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:38:54 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:38:54 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:38:54 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:38:54 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:38:54 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:38:54 CEST 2021
+2021-10-26 11:38:54 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 11:38:54 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 11:38:54 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 11:38:54 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 11:39:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 11:39:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 11:39:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 11:39:52 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 11:39:52 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 11:39:52 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 11:39:52 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 11:39:52 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:39:52 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 11:39:52 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 11:39:52 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 11:39:52 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 11:39:52 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 11:39:52 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 1 threads for group .
+2021-10-26 11:39:52 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 11:39:52 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-10-26 11:39:52 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 11:39:52 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 11:39:52 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 11:39:52 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 11:39:52 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 11:39:52 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 11:39:52 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 11:39:52 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 11:39:52 CEST 2021
+2021-10-26 14:21:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 14:21:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 14:21:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 14:21:12 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 14:21:16 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 14:21:16 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 14:21:17 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 14:21:17 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:21:17 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:21:17 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 14:21:17 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 14:21:17 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 14:21:17 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 14:21:17 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 8 threads for group .
+2021-10-26 14:21:17 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 14:21:17 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2021-10-26 14:21:17 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 14:21:17 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 14:21:17 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 14:21:17 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 14:21:17 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 14:21:17 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 14:21:17 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 14:21:17 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 14:21:17 CEST 2021
+2021-10-26 14:21:17 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-2
+2021-10-26 14:21:17 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-3
+2021-10-26 14:21:18 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-4
+2021-10-26 14:21:18 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-5
+2021-10-26 14:21:18 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-6
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-4
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-4
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-3
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-3
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-6
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-2
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-2
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-6
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-5
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-5
+2021-10-26 14:21:18 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-7
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-7
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-7
+2021-10-26 14:21:18 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-8
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-8
+2021-10-26 14:21:18 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-8
+2021-10-26 14:21:18 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 14:21:18 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 14:23:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 14:23:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 14:23:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 14:23:40 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 14:23:40 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 14:23:40 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 14:23:40 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 14:23:40 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:23:40 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:23:40 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 14:23:40 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 14:23:40 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 14:23:40 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 14:23:40 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 8 threads for group .
+2021-10-26 14:23:40 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 14:23:40 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2021-10-26 14:23:40 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 14:23:40 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 14:23:40 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 14:23:40 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 14:23:40 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 14:23:40 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 14:23:40 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 14:23:40 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 14:23:40 CEST 2021
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-2
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-3
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-4
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-5
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-6
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-1
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-1
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-4
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-4
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-2
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-3
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-2
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-3
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-5
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-6
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-5
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-6
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-7
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-7
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-7
+2021-10-26 14:23:41 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-8
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:298 [] - Thread is done:  1-8
+2021-10-26 14:23:41 INFO  threads.JMeterThread.run:327 [] - Thread finished:  1-8
+2021-10-26 14:23:41 INFO  engine.StandardJMeterEngine.notifyTestListenersOfEnd:214 [] - Notifying test listeners of end of test
+2021-10-26 14:23:41 INFO  services.FileServer.<init>:86 [] - Default base='C:\Users\a835928\IdeaProjects\coreseLibTutorial\CoreseStressTest'
+2021-10-26 14:24:01 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'server.exitaftertest', defaulting to: false
+2021-10-26 14:24:01 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.remote.system.exit', defaulting to: false
+2021-10-26 14:24:01 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.stopfail.system.exit', defaulting to: true
+2021-10-26 14:24:01 WARN  util.JMeterUtils.getPropDefault:711 [] - Exception 'null' occurred when fetching boolean property:'jmeterengine.force.system.exit', defaulting to: false
+2021-10-26 14:24:01 INFO  util.JMeterUtils.setLocale:349 [] - Setting Locale to fr_FR
+2021-10-26 14:24:01 INFO  util.JMeterUtils.setLocale:381 [] - Could not find resources for 'fr_FR', using 'fr'
+2021-10-26 14:24:01 INFO  engine.StandardJMeterEngine.run:352 [] - Running the test!
+2021-10-26 14:24:01 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:24:01 INFO  samplers.SampleEvent.initSampleVariables:63 [] - List of sample_variables: []
+2021-10-26 14:24:01 INFO  util.CompoundVariable.<clinit>:66 [] - Note: Function class names must contain the string: '.functions.'
+2021-10-26 14:24:01 INFO  util.CompoundVariable.<clinit>:69 [] - Note: Function class names must not contain the string: '.gui.'
+2021-10-26 14:24:01 WARN  util.CompoundVariable.<clinit>:85 [] - Did not find any functions
+2021-10-26 14:24:01 INFO  engine.StandardJMeterEngine.run:451 [] - Starting ThreadGroup: 1 : 
+2021-10-26 14:24:01 INFO  engine.StandardJMeterEngine.startThreadGroup:511 [] - Starting 8 threads for group .
+2021-10-26 14:24:01 INFO  engine.StandardJMeterEngine.startThreadGroup:521 [] - Thread will continue on error
+2021-10-26 14:24:01 INFO  threads.ThreadGroup.start:220 [] - Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2021-10-26 14:24:01 INFO  threads.ThreadGroup.start:248 [] - Started thread group number 1
+2021-10-26 14:24:01 INFO  engine.StandardJMeterEngine.run:462 [] - All thread groups have been started
+2021-10-26 14:24:01 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-1
+2021-10-26 14:24:01 INFO  samplers.SampleResult.<clinit>:145 [] - Note: Sample TimeStamps are START times
+2021-10-26 14:24:01 INFO  samplers.SampleResult.<clinit>:149 [] - sampleresult.default.encoding is set to ISO-8859-1
+2021-10-26 14:24:01 INFO  samplers.SampleResult.<clinit>:150 [] - sampleresult.useNanoTime=true
+2021-10-26 14:24:01 INFO  samplers.SampleResult.<clinit>:151 [] - sampleresult.nanoThreadSleep=5000
+2021-10-26 14:24:01 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Oct 26 14:24:01 CEST 2021
+2021-10-26 14:24:01 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-2
+2021-10-26 14:24:01 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-3
+2021-10-26 14:24:02 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-4
+2021-10-26 14:24:02 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-5
+2021-10-26 14:24:02 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-6
+2021-10-26 14:24:02 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-7
+2021-10-26 14:24:02 INFO  threads.JMeterThread.initRun:727 [] - Thread started:  1-8
