@@ -41,16 +41,16 @@ public class CustomSampler extends AbstractSampler {
         try {
             this.graph = this.corese.init();
 
-               while(true){
-
-                    corese.query(this.graph,
-                           query(200)
-                    );
-
-                    incrCounter();
-                    // calcJim(this.graph);
-                    sampleResult.setSuccessful(true);
-                }
+                while(true){
+                Instant start = Instant.now();
+                corese.query(this.graph,
+                        query(200)
+                );
+                Instant end =Instant.now();
+                incrCounter(Duration.between(start,end).toMillis());
+                // calcJim(this.graph);
+                sampleResult.setSuccessful(true);
+            }
 
 
         } catch (Exception err) {
@@ -68,25 +68,31 @@ public class CustomSampler extends AbstractSampler {
 
         super.removed();
     }
-    public synchronized  void incrCounter() throws EngineException {
+    public synchronized  void incrCounter(long duration) throws EngineException {
+        JMeterThread thread = JMeterContextService.getContext().getThread();
+        if(counter >= 10000) {
+            if(thread.getThreadNum()!=0){
+                System.out.println("Thread Num : "+thread.getThreadNum()+" graph :"+this.graph.getName());
+                return ;
+            }else{
+                System.out.println("Thread Num : "+thread.getThreadNum()+" : INSERT QUERY DURATION = "+ duration);
+                calcJim(this.graph);
+                counter = 0;
+            }
 
-               if(counter == 10000){
-                   calcJim(this.graph);
-                   counter = 0;
-               }
-               else{
-                   counter+=200;
-               }
+        }else{
+            counter+=200;
+        }
 
     }
     public synchronized  void calcJim(Graph graph) throws EngineException {
-
-        Mappings map =  this.corese.query(graph,"@prefix ns1:<http://www.inria.fr/2015/humans#>. SELECT (COUNT(?x) as ?count) WHERE {?x ns1:age 18}");
-        IDatatype dt = (IDatatype)    map.getValue("?count");
-
-        System.out.println("Thread num :"+JMeterContextService.getContext().getThreadNum()+
-                ", counter Jim : " +dt.intValue()+" graph: "+ this.graph.getName());
-    }
+              Instant start = Instant.now();
+              Mappings map =  this.corese.query(graph,"@prefix ns1:<http://www.inria.fr/2015/humans#>. SELECT (COUNT(?x) as ?count) WHERE {?x ns1:age 18}");
+              IDatatype dt = (IDatatype)    map.getValue("?count");
+              Instant end = Instant.now();
+              System.out.println("Thread num :"+JMeterContextService.getContext().getThreadNum()+
+                                 ", counter Jim : " +dt.intValue()+" graph: "+ this.graph.getName()+" counting time : "+ Duration.between(start,end).toMillis());
+          }
 
     private String query (int numRep){
 
@@ -109,49 +115,6 @@ public class CustomSampler extends AbstractSampler {
         }
             return this.corese;
     }
-/*
-*
-*   public synchronized  void incrCounter(long duration) throws EngineException {
-        JMeterThread thread = JMeterContextService.getContext().getThread();
-        if(counter >= 10000) {
-            if(thread.getThreadNum()!=0){
-                System.out.println("Thread Num : "+thread.getThreadNum()+" graph :"+this.graph.getName());
-                return ;
-            }else{
-                System.out.println("Thread Num : "+thread.getThreadNum()+" : INSERT QUERY DURATION = "+ duration);
-                calcJim(this.graph);
-                counter = 0;
-            }
 
-        }else{
-            counter+=200;
-        }
 
-    }
-* */
-
-    /*
-    *
-    *    while(true){
-                  Instant start = Instant.now();
-                    corese.query(this.graph,
-                           query(200)
-                    );
-                    Instant end =Instant.now();
-                    incrCounter(Duration.between(start,end).toMillis());
-                    // calcJim(this.graph);
-                    sampleResult.setSuccessful(true);
-                }
-    * */
-
-    /**
-     *  public synchronized  void calcJim(Graph graph) throws EngineException {
-     *         Instant start = Instant.now();
-     *         Mappings map =  this.corese.query(graph,"@prefix ns1:<http://www.inria.fr/2015/humans#>. SELECT (COUNT(?x) as ?count) WHERE {?x ns1:age 18}");
-     *         IDatatype dt = (IDatatype)    map.getValue("?count");
-     *         Instant end = Instant.now();
-     *         System.out.println("Thread num :"+JMeterContextService.getContext().getThreadNum()+
-     *                 ", counter Jim : " +dt.intValue()+" graph: "+ this.graph.getName()+" counting time : "+ Duration.between(start,end).toMillis());
-     *     }
-     * */
 }
