@@ -6,8 +6,6 @@ import org.apache.jmeter.control.gui.TestPlanGui;
 import org.apache.jmeter.engine.StandardJMeterEngine;
 import org.apache.jmeter.testelement.TestElement;
 import org.apache.jmeter.testelement.TestPlan;
-import org.apache.jmeter.threads.JMeterContext;
-import org.apache.jmeter.threads.JMeterContextService;
 import org.apache.jmeter.threads.ThreadGroup;
 import org.apache.jmeter.threads.gui.ThreadGroupGui;
 import org.apache.jmeter.util.JMeterUtils;
@@ -16,17 +14,24 @@ import org.apache.jorphan.collections.HashTree;
 
 
 public class application {
-
+    /*private static CustomSimpler customSimpler=null;
+    public static CustomSimpler getCS(){
+         if(customSimpler==null){
+             customSimpler = new CustomSimpler();
+         }
+         return customSimpler;
+     }
+*/
     public static void main(String[] args) {
 
         //JMETER ENGINE
         StandardJMeterEngine jmeter = new StandardJMeterEngine();
-        JMeterUtils.loadJMeterProperties("C:/Users/a835928/IdeaProjects/apache-jmeter-5.4.1/bin/jmeter.properties");
+        JMeterUtils.loadJMeterProperties("/home/oem/Desktop/apache-jmeter-5.4.1/bin/jmeter.properties");
         JMeterUtils.initLocale();
 
         //JMeter test plan
         HashTree testPlanTree = new HashTree();
-        CustomSimpler customSimpler = new CustomSimpler();
+        CustomSampler customSampler = new CustomSampler();
         LoopController loopController = new LoopController();
         loopController.setLoops(1);
 
@@ -53,7 +58,7 @@ public class application {
         // Construct Test Plan from previously initialized elements
         testPlanTree.add(testPlan);
         HashTree threadGroupHashTree = testPlanTree.add(testPlan, threadGroup);
-        threadGroupHashTree.add(customSimpler);
+        threadGroupHashTree.add(customSampler);
         // JMeterContextService.getContext().getThreadNum();
 
         // Run Test Plan

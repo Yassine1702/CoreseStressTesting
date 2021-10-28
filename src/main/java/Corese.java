@@ -10,10 +10,12 @@ import fr.inria.corese.kgram.core.Mappings;
 import fr.inria.corese.sparql.exceptions.EngineException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class Corese {
     private   String RESOURCES_PATH = "src/main/resources/" ;
     private Map <String,String> prefixes ;
+    private static Graph graph= null;
 
     public Corese() {
         /**
@@ -32,11 +34,14 @@ public class Corese {
         return this.prefixes;
     }
 
-    public Graph init() throws LoadException {
-        Graph graph = Graph.create(true);
-        Load ld = Load.create(graph);
-        ld.parse(RESOURCES_PATH + "human1.rdf");
-        return graph;
+    public synchronized Graph init() throws LoadException {
+        if(this.graph==null){
+            this.graph = Graph.create(true);
+            graph.setName("graph"+UUID.randomUUID());
+            Load ld = Load.create(this.graph);
+            ld.parse(RESOURCES_PATH + "human1.rdf");
+        }
+        return this.graph;
     }
     public Mappings query(Graph graph, String query) throws EngineException {
         QueryProcess exec = QueryProcess.create(graph);
